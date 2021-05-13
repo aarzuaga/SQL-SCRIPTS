@@ -95,3 +95,7 @@ DROP COLUMN column_name;
 If not all the listed tables exist, MySQL will still drop all tables that do exist.
 
 DROP TABLE IF EXISTS table_that_should_not_be_dropped;
+
+CANCEL EXAMPLE
+mysql> SELECT * FROM my_table WHERE name = 'Smith AND age < 30;
+    '>'\C
